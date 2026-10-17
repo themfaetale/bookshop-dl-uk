@@ -1,13 +1,13 @@
 {
-  "name": "bookshop-dl-app",
-  "productName": "bookshop-dl",
+  "name": "bookshop-dl-uk-app",
+  "productName": "bookshop-dl-uk",
   "private": true,
   "version": "0.0.2",
   "author": "Bookshop DL <bookshop-dl@proton.me>",
   "description": "Download DRM-free EPUBs from your Bookshop.org library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bookshop-dl/bookshop-dl.git"
+    "url": "https://github.com/themfaetale/bookshop-dl-uk.git"
   },
   "main": "dist/main.js",
   "type": "module",
@@ -24,7 +24,7 @@
     "petite-vue": "^0.4.1"
   },
   "devDependencies": {
-    "@types/node": "^22.15.21",
+    "@types/node": "^24.18.0",
     "app-builder-bin": "5.0.0-alpha.10",
     "electron": "33.4.11",
     "electron-builder": "26.0.13",
@@ -33,7 +33,7 @@
   },
   "build": {
     "appId": "org.bookshop.download",
-    "productName": "bookshop-dl",
+    "productName": "bookshop-dl-uk",
     "electronVersion": "33.4.11",
     "npmRebuild": false,
     "npmArgs": [
@@ -55,8 +55,8 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "bookshop-dl",
-      "repo": "bookshop-dl",
+      "owner": "themfaetale",
+      "repo": "bookshop-dl-uk",
       "releaseType": "release"
     },
     "mac": {

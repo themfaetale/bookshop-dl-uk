@@ -24,7 +24,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
@@ -34,7 +34,7 @@ jobs:
         shell: bash
         run: |
           VERSION="${GITHUB_REF#refs/tags/v}"
-          npm version "$VERSION" --no-git-tag-version -w bookshop-dl-app
+          npm version "$VERSION" --no-git-tag-version -w bookshop-dl-uk-app
 
       - name: Prepare app workspace for electron-builder
         run: node -e "require('fs').mkdirSync('app/node_modules',{recursive:true})"

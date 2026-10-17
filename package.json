@@ -1,5 +1,5 @@
 {
-  "name": "bookshop-dl",
+  "name": "bookshop-dl-uk",
   "private": true,
   "workspaces": [
     "lib",
@@ -10,7 +10,7 @@
     "build:lib": "npm run build -w bookshop-lib",
     "list-library": "npm run list-library -w bookshop-dl-scripts",
     "download-epub": "npm run download-epub -w bookshop-dl-scripts",
-    "app": "npm run start -w bookshop-dl-app",
-    "app:dist": "npm run build -w bookshop-lib && npm run dist -w bookshop-dl-app"
+    "app": "npm run start -w bookshop-dl-uk-app",
+    "app:dist": "npm run build -w bookshop-lib && npm run dist -w bookshop-dl-uk-app"
   }
 }
