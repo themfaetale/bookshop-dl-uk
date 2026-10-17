@@ -3,7 +3,7 @@ export interface Credentials {
   password: string;
 }
 
-const FIREBASE_API_KEY = "AIzaSyDFN0MbkYiqXue7-7oRnLFuta2klSb5YRU";
+const FIREBASE_API_KEY = "AIzaSyBYLvlPkr1tlW9XvZ7-LVcEo1YdnAs4fNQ";
 
 let session: Credentials | null = null;
 

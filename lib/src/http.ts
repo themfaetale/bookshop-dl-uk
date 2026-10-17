@@ -1,4 +1,4 @@
-export const BOOKSHOP_API = "https://bookshop.org";
+export const BOOKSHOP_API = "https://uk.bookshop.org";
 
 const REQUEST_TIMEOUT_MS = 30_000;
 
