@@ -9,7 +9,7 @@ interface StoredSession {
 }
 
 export function initSessionStorage() {
-  app.setName("bookshop-dl");
+  app.setName("bookshop-dl-uk");
 }
 
 function sessionPath() {

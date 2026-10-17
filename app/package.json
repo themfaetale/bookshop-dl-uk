@@ -1,6 +1,6 @@
 {
-  "name": "bookshop-dl-app",
-  "productName": "bookshop-dl",
+  "name": "bookshop-dl-uk-app",
+  "productName": "bookshop-dl-uk",
   "private": true,
   "version": "0.0.2",
   "author": "Bookshop DL <bookshop-dl@proton.me>",
@@ -33,7 +33,7 @@
   },
   "build": {
     "appId": "org.bookshop.download",
-    "productName": "bookshop-dl",
+    "productName": "bookshop-dl-uk",
     "electronVersion": "33.4.11",
     "npmRebuild": false,
     "npmArgs": [
